@@ -1,0 +1,41 @@
+.MovieCard {
+    color: white;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    transition: transform 80ms;
+}
+
+
+.MovieCard > img {
+    height: 280px;
+    object-fit: contain;
+    width: 500px;
+
+}
+
+.MovieCard:hover{
+    transform: scale(1.09);
+
+
+}
+
+.MovieCard > h2 {
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: limegreen
+
+}.MovieCard > p {
+    font-family: cursive;
+
+}
+
+.MovieCard_stats{
+    display: none;
+
+}
+
+.MovieCard:hover > .MovieCard_stats{
+    display: inline;
+
+}

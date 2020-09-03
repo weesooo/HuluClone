@@ -1,0 +1,33 @@
+.Navigation {
+    color: red;
+    overflow-x: scroll;
+    padding: 10px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Navigation::-webkit-scrollbar {
+    display: none;
+
+
+}
+
+.Navigation > h2 {
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 500;
+    opacity: 0.7;
+    font-style: oblique;
+    transition: transform 50 ease-out;
+
+}
+
+
+.Navigation > h2:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+

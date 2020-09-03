@@ -1,0 +1,62 @@
+.header {
+    color: red;
+    display: flex;
+    background-color: black;
+    padding: 2px;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.header_icon {
+
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    width: 100px;
+}
+
+.header > img{
+
+    object-fit: contain;
+    height: 50px;
+}
+
+
+.header_icons {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.header_icon > .MuiSvgIcon-root {
+
+    margin-left: auto;
+    margin-right: auto;    
+    font-size: 33px;
+}
+
+.header_icon > p {
+    display: none;
+    text-transform: uppercase;    
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+}
+
+
+.header_icon:hover > p {
+    display: inline;
+}
+
+
+/* Hide the scroll bar */
+
+.header::-webkit-scrollbar {
+
+display: none;
+}
