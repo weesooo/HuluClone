@@ -14,7 +14,7 @@ function Movies({ SelectedCategory }) {
     async function getData() {
       const request = await axios.get(SelectedCategory);
       setFilms(request.data.results);
-      console.log(request); //Testing to see if I'm getting a response back
+      //console.log(request); //Testing to see if I'm getting a response back
       return request;
     }
 
